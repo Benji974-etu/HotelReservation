@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+</head>
+<style>
+    body{
+        /* background-color: black; */
+        background-image: url('../assets/img/background.png');
+    }
+
+    img{
+        height: 200px;
+        width: 200px;
+        padding: 20px;
+    }
+    
+
+    #title{
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        /* border: 1px solid white; */
+    }
+    h3{
+        color: white;
+        font-family: 'Poppins';
+        font-size: 90px;
+    }
+
+    #booking{
+        width: 600px;
+        /* border: 1px solid white; */
+        margin: auto;
+    }
+
+    button{
+        color: black;
+        font-size: 50px;
+        font-family: 'Italiana';
+        /* background-color: #B3CEE5; */
+        /* background-color: #AEC6CF; */
+        background-color: #FFD20A;
+        /* background-color: #38555F; */
+        /* background-color: #4D0011; */
+        /* background-color: #970C10; */
+        padding: 15px;
+        width: 600px;
+        border-radius: 15px;
+        border: lightgray;
+        font-weight: 900;
+    }
+
+    #stars{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        color: #FAD130;
+        margin: auto;
+        margin-bottom: 40px;
+        position: absolute;
+        top: 50%;
+    }
+
+    #main{
+        /* border: 1px white solid; */
+        width: 1500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: black;
+        border-radius: 15px;
+        opacity: 0.8;
+        z-index: -1;
+    }
+</style>
+<body>
+    <img src="../assets/img/logoHotel.png" alt="">
+
+    <div id="main">
+    </div>
+    <div id="title">
+        <h3>Find out the hotel which will fit better for you.</h3>
+        <div id="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+    </div>
+
+    <div id="booking">
+        <button>Make a reservation</button>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
